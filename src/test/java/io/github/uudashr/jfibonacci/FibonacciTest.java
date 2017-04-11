@@ -17,9 +17,4 @@ public class FibonacciTest {
         }
     }
 
-    @Test
-    public void testFail() {
-        fail("Wow");
-    }
-
 }
