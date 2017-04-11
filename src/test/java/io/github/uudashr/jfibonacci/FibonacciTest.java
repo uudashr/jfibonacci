@@ -16,9 +16,5 @@ public class FibonacciTest {
             assertEquals(want, got);
         }
     }
-
-    @Test
-    public void alwaysFail() {
-        fail("always fail");
-    }
+    
 }
