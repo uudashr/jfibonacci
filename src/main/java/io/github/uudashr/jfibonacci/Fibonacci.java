@@ -5,7 +5,7 @@ package io.github.uudashr.jfibonacci;
  *
  */
 public final class Fibonacci {
-    
+
     private Fibonacci() {
     }
 
