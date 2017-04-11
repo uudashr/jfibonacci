@@ -1,7 +1,8 @@
 package io.github.uudashr.jfibonacci;
 
-import org.junit.Assert;
 import org.junit.Test;
+
+import static org.junit.Assert.*;
 
 public class FibonacciTest {
 
@@ -12,7 +13,12 @@ public class FibonacciTest {
         for (int i = 0; i < data.length; i++) {
             int want = data[i];
             int got = Fibonacci.number(i);
-            Assert.assertEquals(want, got);
+            assertEquals(want, got);
         }
+    }
+
+    @Test
+    public void alwaysFail() {
+        fail("always fail");
     }
 }
