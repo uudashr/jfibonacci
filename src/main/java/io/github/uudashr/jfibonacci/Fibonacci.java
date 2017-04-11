@@ -4,14 +4,21 @@ package io.github.uudashr.jfibonacci;
  * This class will provide basic fibonacci functionality.
  *
  */
-public class Fibonacci {
+public final class Fibonacci {
+
+    /**
+     * Disabled the instantiation.
+     */
+    private Fibonacci() {
+    }
+
     /**
      * Compute fibonacci number on specific index.
      *
      * @param i is the index
      * @return the fibonacci number
      */
-    public static int number(int i) {
+    public static int number(final int i) {
         if (i < 2) {
             return i;
         }

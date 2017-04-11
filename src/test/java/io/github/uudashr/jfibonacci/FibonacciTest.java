@@ -16,5 +16,5 @@ public class FibonacciTest {
             assertEquals(want, got);
         }
     }
-    
+
 }
