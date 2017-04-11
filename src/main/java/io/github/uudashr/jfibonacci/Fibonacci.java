@@ -6,6 +6,9 @@ package io.github.uudashr.jfibonacci;
  */
 public final class Fibonacci {
 
+    /**
+     * Disabled the instantiation.
+     */
     private Fibonacci() {
     }
 
